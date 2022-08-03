@@ -5,11 +5,10 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium import webdriver
-
+from src import URL, path
 from register import reg
 
-URL = 'https://vk.com/chereshnevavictoria'
-path = "/home/vadim/foto3"
+
 
 
 def get_link(driver_chrome):

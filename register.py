@@ -1,11 +1,7 @@
-
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait as Wait
 from selenium.webdriver.support import expected_conditions as EC
-
-
-login = "+79042193666"
-password = "48VaDBr48"
+from src import login, password
 
 
 def reg(driver):
